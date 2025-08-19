@@ -1,69 +1,90 @@
-# 📦E-Commerce-Online-Order-Management-System
 
-📌 Project Overview
+# 🛒 E-Commerce Online Order Management System (OMS)📦
 
-A relational database–driven Order Management System (OMS) built in MySQL to manage the complete e-commerce workflow including customer details, orders, payments, inventory, shipping, and post-sales support.
-
-🚀 Features
-
-Purchaser, Vendor, and Product management
-
-Order processing with item-level tracking
-
-Payment handling (Credit/Debit cards, banking info)
-
-Inventory and stockpile management
-
-Shipping details with address mapping
-
-Customer engagement (Wishlist, Feedback, After-sales care)
-
-Normalized schema ensuring data integrity and scalability
+A **relational SQL database project** designed to handle the **complete lifecycle of online orders** — from purchaser registration, product inventory, payments, and shipping, to post-sales support.  
 
 
-🛠 Tech Stack
+---
 
-Database: MySQL
+## 📖 Abstract
 
-Programming Languages: SQL
+The project implements a **robust E-Commerce Order Management System (OMS)** using a relational database schema.  
+It supports:
 
-Modeling: ER Diagrams, Normalization
+- ✅ Accurate user profiling & payment processing (credit/debit cards, banking details).  
+- ✅ Real-time inventory tracking across multiple warehouses.  
+- ✅ Smooth order processing with item-level details & linked shipping info.  
+- ✅ Post-purchase engagement (Feedback, Wishlist, After-Sales Care).  
 
+This schema ensures **data integrity**, provides **efficient workflows**, and lays the foundation for a scalable **modern e-commerce platform**.
 
-📂 Database Design
+---
 
-20+ normalized tables (Purchaser, Vendor, Products, Orders, Payments, Stockpile, Shipping, etc.)
+## 🎯 Project Purpose
 
-Implemented Primary Keys, Foreign Keys, and Constraints
+The purpose of this project is to **design and implement a structured SQL-based database** that replicates the backend of an e-commerce platform.  
 
-ER diagram mapping relationships between entities
+- To simulate **real-world order workflows** from purchase to delivery.  
+- To provide a **hands-on understanding** of database design, normalization, and relational integrity.  
+- To demonstrate how **SQL queries** can solve practical business problems like order tracking, payment management, and stock monitoring.  
+- To build a **scalable foundation** that can be extended into a full-fledged e-commerce system with a UI and advanced analytics.  
 
+---
 
-📑 SQL Functionalities
+## 👨‍💻 My Role
 
-Data Insertion scripts for all entities
+As the project developer, I was responsible for:
 
-Complex queries including:
+- 📌 **Requirement Analysis** – Identifying core entities (Purchaser, Vendor, Orders, Products, Payments, Shipping).  
+- 📌 **Database Design** – Creating ER Diagrams, defining relationships, and ensuring normalization.  
+- 📌 **Schema Implementation** – Writing SQL DDL commands to build 20+ tables with proper constraints (PKs, FKs).  
+- 📌 **Data Population** – Inserting sample records for testing and validation.  
+- 📌 **Query Writing** – Implementing business logic through SQL queries (e.g., card expiry checks, shipping counts, order tracking).  
+- 📌 **Documentation** – Preparing a detailed project report with methodology, design, queries, and recommendations.  
 
-Aggregates (COUNT, AVG, MIN, MAX)
+---
 
-Joins (INNER, LEFT, RIGHT)
+## ⚡ Features
 
-Constraints & TCL commands
+- Customer & Payment Handling (Purchaser, Consumer, Vendor, Credit/Debit Cards).  
+- Order Management (Orders, OrderItems, Contain).  
+- Inventory & Fulfillment (Products, Stockpile, Shipping Address, Ship_To).  
+- Customer Experience (Feedback, Wishlist, After-Sales Care, Oversee).  
+- Query support for analytics & reports (bank-wise cards, expiry dates, avg cards per user, shipping stats).  
 
-Real-time queries for order, payment, and shipping workflows
+---
 
+## 🛠️ Database Design
 
+### Key Components
+- **20+ Entities** including Purchaser, Vendor, Products, Orders, Payments, Feedback, Shipping, Service Hubs.  
+- **ER Diagram** mapping relationships (Purchaser → Orders → Payments → Shipping).  
+- **Normalization** applied for eliminating redundancy & maintaining integrity.  
 
-🧑‍💻 My Role
+---
 
-Designed and implemented a normalized OLTP schema in MySQL.
+## 💻 Implementation
 
-Developed and optimized DDL/DML scripts, joins, and aggregate queries.
+### Tools & Technologies
+- **Database**: MySQL  
+- **Language**: SQL (DDL & DML)  
 
-Created ER diagrams for order-to-fulfillment workflows.
+### Steps
+1. Create database & tables using provided schema.  
+2. Insert sample data for testing.  
+3. Run SQL queries for use cases.  
 
-Integrated customer experience features (wishlist, feedback, after-sales care).
+---
 
-Suggested performance improvements (indexes, triggers, stored procedures).
+## 📂 Example Queries
+
+- List all purchasers and their cities.  
+- Find all banking cards issued by **HDFC Bank**.  
+- Get debit card owners with their linked credit cards.  
+- Count shipping addresses per city.  
+- Find **min/max card expiry dates** per bank.  
+- Compute **average number of cards per purchaser**.  
+
+---
+
 

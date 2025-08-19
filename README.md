@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="logo.png" alt="E-Commerce OMS Logo" width="200"/>
+</p>
 
 # 🛒 E-Commerce Online Order Management System (OMS)📦
 
